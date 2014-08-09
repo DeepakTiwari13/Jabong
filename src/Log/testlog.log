@@ -1,0 +1,774 @@
+2014-04-24 11:50:38,962 - BaseClass - INFO - Starting Log
+2014-04-24 11:52:18,324 - org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - DEBUG - Get connection: {}->http://localhost:37382, timeout = 120000
+2014-04-24 11:52:18,329 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - [{}->http://localhost:37382] total kept alive: 0, total issued: 0, total allocated: 0 out of 2000
+2014-04-24 11:52:18,330 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - No free connections [{}->http://localhost:37382][null]
+2014-04-24 11:52:18,330 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Available capacity: 2000 out of 2000 [{}->http://localhost:37382][null]
+2014-04-24 11:52:18,330 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Creating new connection [{}->http://localhost:37382]
+2014-04-24 11:52:18,347 - org.apache.http.impl.conn.DefaultClientConnectionOperator - DEBUG - Connecting to localhost:37382
+2014-04-24 11:52:18,370 - org.apache.http.client.protocol.RequestAddCookies - DEBUG - CookieSpec selected: best-match
+2014-04-24 11:52:18,384 - org.apache.http.client.protocol.RequestAuthCache - DEBUG - Auth cache not set in the context
+2014-04-24 11:52:18,385 - org.apache.http.client.protocol.RequestTargetAuthentication - DEBUG - Target auth state: UNCHALLENGED
+2014-04-24 11:52:18,385 - org.apache.http.client.protocol.RequestProxyAuthentication - DEBUG - Proxy auth state: UNCHALLENGED
+2014-04-24 11:52:18,385 - org.apache.http.impl.client.DefaultHttpClient - DEBUG - Attempt 1 to execute request
+2014-04-24 11:52:18,386 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Sending request: POST /session HTTP/1.1
+2014-04-24 11:52:18,386 - org.apache.http.wire - DEBUG - >> "POST /session HTTP/1.1[\r][\n]"
+2014-04-24 11:52:18,387 - org.apache.http.wire - DEBUG - >> "Accept: application/json, image/png[\r][\n]"
+2014-04-24 11:52:18,387 - org.apache.http.wire - DEBUG - >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2014-04-24 11:52:18,388 - org.apache.http.wire - DEBUG - >> "Content-Length: 143[\r][\n]"
+2014-04-24 11:52:18,389 - org.apache.http.wire - DEBUG - >> "Host: localhost:37382[\r][\n]"
+2014-04-24 11:52:18,389 - org.apache.http.wire - DEBUG - >> "Connection: Keep-Alive[\r][\n]"
+2014-04-24 11:52:18,389 - org.apache.http.wire - DEBUG - >> "[\r][\n]"
+2014-04-24 11:52:18,389 - org.apache.http.headers - DEBUG - >> POST /session HTTP/1.1
+2014-04-24 11:52:18,390 - org.apache.http.headers - DEBUG - >> Accept: application/json, image/png
+2014-04-24 11:52:18,390 - org.apache.http.headers - DEBUG - >> Content-Type: application/json; charset=utf-8
+2014-04-24 11:52:18,390 - org.apache.http.headers - DEBUG - >> Content-Length: 143
+2014-04-24 11:52:18,390 - org.apache.http.headers - DEBUG - >> Host: localhost:37382
+2014-04-24 11:52:18,390 - org.apache.http.headers - DEBUG - >> Connection: Keep-Alive
+2014-04-24 11:52:18,391 - org.apache.http.wire - DEBUG - >> "{"desiredCapabilities":{"platform":"ANY","browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","chrome.switches":[]}}"
+2014-04-24 11:52:19,001 - org.apache.http.wire - DEBUG - << "HTTP/1.1 200 OK[\r][\n]"
+2014-04-24 11:52:19,004 - org.apache.http.wire - DEBUG - << "Content-Length:557[\r][\n]"
+2014-04-24 11:52:19,004 - org.apache.http.wire - DEBUG - << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2014-04-24 11:52:19,004 - org.apache.http.wire - DEBUG - << "Connection:close[\r][\n]"
+2014-04-24 11:52:19,004 - org.apache.http.wire - DEBUG - << "[\r][\n]"
+2014-04-24 11:52:19,005 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Receiving response: HTTP/1.1 200 OK
+2014-04-24 11:52:19,006 - org.apache.http.headers - DEBUG - << HTTP/1.1 200 OK
+2014-04-24 11:52:19,006 - org.apache.http.headers - DEBUG - << Content-Length:557
+2014-04-24 11:52:19,006 - org.apache.http.headers - DEBUG - << Content-Type:application/json; charset=utf-8
+2014-04-24 11:52:19,006 - org.apache.http.headers - DEBUG - << Connection:close
+2014-04-24 11:52:19,012 - org.apache.http.wire - DEBUG - << "{"sessionId":"24d4b63013c67c425b9e56a9dcfb5c8a","status":0,"value":{"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"userDataDir":"C:\\Users\\deepakt\\AppData\\Local\\Temp\\scoped_dir8176_13560"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"javascriptEnabled":true,"locationContextEnabled":true,"nativeEvents":true,"platform":"Windows NT","rotatable":false,"takesHeapSnapshot":true,"takesScreenshot":true,"version":"34.0.1847.116","webStorageEnabled":true}}"
+2014-04-24 11:52:19,012 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Connection 0.0.0.0:51540<->127.0.0.1:37382 shut down
+2014-04-24 11:52:19,013 - org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - DEBUG - Released connection is not reusable.
+2014-04-24 11:52:19,013 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Releasing connection [{}->http://localhost:37382][null]
+2014-04-24 11:52:19,013 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Connection 0.0.0.0:51540<->127.0.0.1:37382 closed
+2014-04-24 11:52:19,013 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Notifying no-one, there are no waiting threads
+2014-04-24 11:52:19,049 - org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - DEBUG - Get connection: {}->http://localhost:37382, timeout = 120000
+2014-04-24 11:52:19,049 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - [{}->http://localhost:37382] total kept alive: 0, total issued: 0, total allocated: 0 out of 2000
+2014-04-24 11:52:19,050 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - No free connections [{}->http://localhost:37382][null]
+2014-04-24 11:52:19,050 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Available capacity: 2000 out of 2000 [{}->http://localhost:37382][null]
+2014-04-24 11:52:19,050 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Creating new connection [{}->http://localhost:37382]
+2014-04-24 11:52:19,050 - org.apache.http.impl.conn.DefaultClientConnectionOperator - DEBUG - Connecting to localhost:37382
+2014-04-24 11:52:19,051 - org.apache.http.client.protocol.RequestAddCookies - DEBUG - CookieSpec selected: best-match
+2014-04-24 11:52:19,051 - org.apache.http.client.protocol.RequestAuthCache - DEBUG - Auth cache not set in the context
+2014-04-24 11:52:19,052 - org.apache.http.client.protocol.RequestTargetAuthentication - DEBUG - Target auth state: UNCHALLENGED
+2014-04-24 11:52:19,052 - org.apache.http.client.protocol.RequestProxyAuthentication - DEBUG - Proxy auth state: UNCHALLENGED
+2014-04-24 11:52:19,052 - org.apache.http.impl.client.DefaultHttpClient - DEBUG - Attempt 1 to execute request
+2014-04-24 11:52:19,052 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Sending request: POST /session/24d4b63013c67c425b9e56a9dcfb5c8a/timeouts/implicit_wait HTTP/1.1
+2014-04-24 11:52:19,052 - org.apache.http.wire - DEBUG - >> "POST /session/24d4b63013c67c425b9e56a9dcfb5c8a/timeouts/implicit_wait HTTP/1.1[\r][\n]"
+2014-04-24 11:52:19,053 - org.apache.http.wire - DEBUG - >> "Accept: application/json, image/png[\r][\n]"
+2014-04-24 11:52:19,053 - org.apache.http.wire - DEBUG - >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2014-04-24 11:52:19,053 - org.apache.http.wire - DEBUG - >> "Content-Length: 12[\r][\n]"
+2014-04-24 11:52:19,053 - org.apache.http.wire - DEBUG - >> "Host: localhost:37382[\r][\n]"
+2014-04-24 11:52:19,053 - org.apache.http.wire - DEBUG - >> "Connection: Keep-Alive[\r][\n]"
+2014-04-24 11:52:19,053 - org.apache.http.wire - DEBUG - >> "[\r][\n]"
+2014-04-24 11:52:19,054 - org.apache.http.headers - DEBUG - >> POST /session/24d4b63013c67c425b9e56a9dcfb5c8a/timeouts/implicit_wait HTTP/1.1
+2014-04-24 11:52:19,054 - org.apache.http.headers - DEBUG - >> Accept: application/json, image/png
+2014-04-24 11:52:19,054 - org.apache.http.headers - DEBUG - >> Content-Type: application/json; charset=utf-8
+2014-04-24 11:52:19,054 - org.apache.http.headers - DEBUG - >> Content-Length: 12
+2014-04-24 11:52:19,054 - org.apache.http.headers - DEBUG - >> Host: localhost:37382
+2014-04-24 11:52:19,054 - org.apache.http.headers - DEBUG - >> Connection: Keep-Alive
+2014-04-24 11:52:19,054 - org.apache.http.wire - DEBUG - >> "{"ms":30000}"
+2014-04-24 11:52:19,059 - org.apache.http.wire - DEBUG - << "HTTP/1.1 200 OK[\r][\n]"
+2014-04-24 11:52:19,059 - org.apache.http.wire - DEBUG - << "Content-Length:72[\r][\n]"
+2014-04-24 11:52:19,059 - org.apache.http.wire - DEBUG - << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2014-04-24 11:52:19,059 - org.apache.http.wire - DEBUG - << "Connection:close[\r][\n]"
+2014-04-24 11:52:19,059 - org.apache.http.wire - DEBUG - << "[\r][\n]"
+2014-04-24 11:52:19,060 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Receiving response: HTTP/1.1 200 OK
+2014-04-24 11:52:19,060 - org.apache.http.headers - DEBUG - << HTTP/1.1 200 OK
+2014-04-24 11:52:19,060 - org.apache.http.headers - DEBUG - << Content-Length:72
+2014-04-24 11:52:19,060 - org.apache.http.headers - DEBUG - << Content-Type:application/json; charset=utf-8
+2014-04-24 11:52:19,060 - org.apache.http.headers - DEBUG - << Connection:close
+2014-04-24 11:52:19,060 - org.apache.http.wire - DEBUG - << "{"sessionId":"24d4b63013c67c425b9e56a9dcfb5c8a","status":0,"value":null}"
+2014-04-24 11:52:19,061 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Connection 0.0.0.0:51545<->127.0.0.1:37382 shut down
+2014-04-24 11:52:19,061 - org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - DEBUG - Released connection is not reusable.
+2014-04-24 11:52:19,061 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Releasing connection [{}->http://localhost:37382][null]
+2014-04-24 11:52:19,061 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Connection 0.0.0.0:51545<->127.0.0.1:37382 closed
+2014-04-24 11:52:19,061 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Notifying no-one, there are no waiting threads
+2014-04-24 11:52:19,064 - org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - DEBUG - Get connection: {}->http://localhost:37382, timeout = 120000
+2014-04-24 11:52:19,064 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - [{}->http://localhost:37382] total kept alive: 0, total issued: 0, total allocated: 0 out of 2000
+2014-04-24 11:52:19,064 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - No free connections [{}->http://localhost:37382][null]
+2014-04-24 11:52:19,064 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Available capacity: 2000 out of 2000 [{}->http://localhost:37382][null]
+2014-04-24 11:52:19,064 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Creating new connection [{}->http://localhost:37382]
+2014-04-24 11:52:19,065 - org.apache.http.impl.conn.DefaultClientConnectionOperator - DEBUG - Connecting to localhost:37382
+2014-04-24 11:52:19,065 - org.apache.http.client.protocol.RequestAddCookies - DEBUG - CookieSpec selected: best-match
+2014-04-24 11:52:19,066 - org.apache.http.client.protocol.RequestAuthCache - DEBUG - Auth cache not set in the context
+2014-04-24 11:52:19,066 - org.apache.http.client.protocol.RequestTargetAuthentication - DEBUG - Target auth state: UNCHALLENGED
+2014-04-24 11:52:19,066 - org.apache.http.client.protocol.RequestProxyAuthentication - DEBUG - Proxy auth state: UNCHALLENGED
+2014-04-24 11:52:19,066 - org.apache.http.impl.client.DefaultHttpClient - DEBUG - Attempt 1 to execute request
+2014-04-24 11:52:19,066 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Sending request: POST /session/24d4b63013c67c425b9e56a9dcfb5c8a/window/current/maximize HTTP/1.1
+2014-04-24 11:52:19,066 - org.apache.http.wire - DEBUG - >> "POST /session/24d4b63013c67c425b9e56a9dcfb5c8a/window/current/maximize HTTP/1.1[\r][\n]"
+2014-04-24 11:52:19,067 - org.apache.http.wire - DEBUG - >> "Accept: application/json, image/png[\r][\n]"
+2014-04-24 11:52:19,067 - org.apache.http.wire - DEBUG - >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2014-04-24 11:52:19,067 - org.apache.http.wire - DEBUG - >> "Content-Length: 26[\r][\n]"
+2014-04-24 11:52:19,067 - org.apache.http.wire - DEBUG - >> "Host: localhost:37382[\r][\n]"
+2014-04-24 11:52:19,067 - org.apache.http.wire - DEBUG - >> "Connection: Keep-Alive[\r][\n]"
+2014-04-24 11:52:19,067 - org.apache.http.wire - DEBUG - >> "[\r][\n]"
+2014-04-24 11:52:19,068 - org.apache.http.headers - DEBUG - >> POST /session/24d4b63013c67c425b9e56a9dcfb5c8a/window/current/maximize HTTP/1.1
+2014-04-24 11:52:19,068 - org.apache.http.headers - DEBUG - >> Accept: application/json, image/png
+2014-04-24 11:52:19,068 - org.apache.http.headers - DEBUG - >> Content-Type: application/json; charset=utf-8
+2014-04-24 11:52:19,068 - org.apache.http.headers - DEBUG - >> Content-Length: 26
+2014-04-24 11:52:19,069 - org.apache.http.headers - DEBUG - >> Host: localhost:37382
+2014-04-24 11:52:19,069 - org.apache.http.headers - DEBUG - >> Connection: Keep-Alive
+2014-04-24 11:52:19,069 - org.apache.http.wire - DEBUG - >> "{"windowHandle":"current"}"
+2014-04-24 11:52:19,222 - org.apache.http.wire - DEBUG - << "HTTP/1.1 200 OK[\r][\n]"
+2014-04-24 11:52:19,223 - org.apache.http.wire - DEBUG - << "Content-Length:72[\r][\n]"
+2014-04-24 11:52:19,223 - org.apache.http.wire - DEBUG - << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2014-04-24 11:52:19,224 - org.apache.http.wire - DEBUG - << "Connection:close[\r][\n]"
+2014-04-24 11:52:19,224 - org.apache.http.wire - DEBUG - << "[\r][\n]"
+2014-04-24 11:52:19,224 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Receiving response: HTTP/1.1 200 OK
+2014-04-24 11:52:19,225 - org.apache.http.headers - DEBUG - << HTTP/1.1 200 OK
+2014-04-24 11:52:19,225 - org.apache.http.headers - DEBUG - << Content-Length:72
+2014-04-24 11:52:19,225 - org.apache.http.headers - DEBUG - << Content-Type:application/json; charset=utf-8
+2014-04-24 11:52:19,225 - org.apache.http.headers - DEBUG - << Connection:close
+2014-04-24 11:52:19,226 - org.apache.http.wire - DEBUG - << "{"sessionId":"24d4b63013c67c425b9e56a9dcfb5c8a","status":0,"value":null}"
+2014-04-24 11:52:19,227 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Connection 0.0.0.0:51546<->127.0.0.1:37382 shut down
+2014-04-24 11:52:19,227 - org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - DEBUG - Released connection is not reusable.
+2014-04-24 11:52:19,227 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Releasing connection [{}->http://localhost:37382][null]
+2014-04-24 11:52:19,227 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Connection 0.0.0.0:51546<->127.0.0.1:37382 closed
+2014-04-24 11:52:19,228 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Notifying no-one, there are no waiting threads
+2014-04-24 11:52:19,229 - org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - DEBUG - Get connection: {}->http://localhost:37382, timeout = 120000
+2014-04-24 11:52:19,229 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - [{}->http://localhost:37382] total kept alive: 0, total issued: 0, total allocated: 0 out of 2000
+2014-04-24 11:52:19,229 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - No free connections [{}->http://localhost:37382][null]
+2014-04-24 11:52:19,229 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Available capacity: 2000 out of 2000 [{}->http://localhost:37382][null]
+2014-04-24 11:52:19,230 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Creating new connection [{}->http://localhost:37382]
+2014-04-24 11:52:19,230 - org.apache.http.impl.conn.DefaultClientConnectionOperator - DEBUG - Connecting to localhost:37382
+2014-04-24 11:52:19,231 - org.apache.http.client.protocol.RequestAddCookies - DEBUG - CookieSpec selected: best-match
+2014-04-24 11:52:19,231 - org.apache.http.client.protocol.RequestAuthCache - DEBUG - Auth cache not set in the context
+2014-04-24 11:52:19,231 - org.apache.http.client.protocol.RequestTargetAuthentication - DEBUG - Target auth state: UNCHALLENGED
+2014-04-24 11:52:19,231 - org.apache.http.client.protocol.RequestProxyAuthentication - DEBUG - Proxy auth state: UNCHALLENGED
+2014-04-24 11:52:19,232 - org.apache.http.impl.client.DefaultHttpClient - DEBUG - Attempt 1 to execute request
+2014-04-24 11:52:19,232 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Sending request: POST /session/24d4b63013c67c425b9e56a9dcfb5c8a/timeouts HTTP/1.1
+2014-04-24 11:52:19,232 - org.apache.http.wire - DEBUG - >> "POST /session/24d4b63013c67c425b9e56a9dcfb5c8a/timeouts HTTP/1.1[\r][\n]"
+2014-04-24 11:52:19,232 - org.apache.http.wire - DEBUG - >> "Accept: application/json, image/png[\r][\n]"
+2014-04-24 11:52:19,233 - org.apache.http.wire - DEBUG - >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2014-04-24 11:52:19,233 - org.apache.http.wire - DEBUG - >> "Content-Length: 31[\r][\n]"
+2014-04-24 11:52:19,233 - org.apache.http.wire - DEBUG - >> "Host: localhost:37382[\r][\n]"
+2014-04-24 11:52:19,233 - org.apache.http.wire - DEBUG - >> "Connection: Keep-Alive[\r][\n]"
+2014-04-24 11:52:19,233 - org.apache.http.wire - DEBUG - >> "[\r][\n]"
+2014-04-24 11:52:19,234 - org.apache.http.headers - DEBUG - >> POST /session/24d4b63013c67c425b9e56a9dcfb5c8a/timeouts HTTP/1.1
+2014-04-24 11:52:19,234 - org.apache.http.headers - DEBUG - >> Accept: application/json, image/png
+2014-04-24 11:52:19,234 - org.apache.http.headers - DEBUG - >> Content-Type: application/json; charset=utf-8
+2014-04-24 11:52:19,234 - org.apache.http.headers - DEBUG - >> Content-Length: 31
+2014-04-24 11:52:19,234 - org.apache.http.headers - DEBUG - >> Host: localhost:37382
+2014-04-24 11:52:19,234 - org.apache.http.headers - DEBUG - >> Connection: Keep-Alive
+2014-04-24 11:52:19,234 - org.apache.http.wire - DEBUG - >> "{"ms":60000,"type":"page load"}"
+2014-04-24 11:52:19,235 - org.apache.http.wire - DEBUG - << "HTTP/1.1 200 OK[\r][\n]"
+2014-04-24 11:52:19,235 - org.apache.http.wire - DEBUG - << "Content-Length:72[\r][\n]"
+2014-04-24 11:52:19,235 - org.apache.http.wire - DEBUG - << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2014-04-24 11:52:19,236 - org.apache.http.wire - DEBUG - << "Connection:close[\r][\n]"
+2014-04-24 11:52:19,236 - org.apache.http.wire - DEBUG - << "[\r][\n]"
+2014-04-24 11:52:19,236 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Receiving response: HTTP/1.1 200 OK
+2014-04-24 11:52:19,236 - org.apache.http.headers - DEBUG - << HTTP/1.1 200 OK
+2014-04-24 11:52:19,236 - org.apache.http.headers - DEBUG - << Content-Length:72
+2014-04-24 11:52:19,236 - org.apache.http.headers - DEBUG - << Content-Type:application/json; charset=utf-8
+2014-04-24 11:52:19,236 - org.apache.http.headers - DEBUG - << Connection:close
+2014-04-24 11:52:19,237 - org.apache.http.wire - DEBUG - << "{"sessionId":"24d4b63013c67c425b9e56a9dcfb5c8a","status":0,"value":null}"
+2014-04-24 11:52:19,237 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Connection 0.0.0.0:51548<->127.0.0.1:37382 shut down
+2014-04-24 11:52:19,237 - org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - DEBUG - Released connection is not reusable.
+2014-04-24 11:52:19,237 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Releasing connection [{}->http://localhost:37382][null]
+2014-04-24 11:52:19,237 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Connection 0.0.0.0:51548<->127.0.0.1:37382 closed
+2014-04-24 11:52:19,238 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Notifying no-one, there are no waiting threads
+2014-04-24 11:52:19,238 - BaseClass - INFO - Starting Log
+2014-04-24 11:52:19,239 - org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - DEBUG - Get connection: {}->http://localhost:37382, timeout = 120000
+2014-04-24 11:52:19,239 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - [{}->http://localhost:37382] total kept alive: 0, total issued: 0, total allocated: 0 out of 2000
+2014-04-24 11:52:19,239 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - No free connections [{}->http://localhost:37382][null]
+2014-04-24 11:52:19,239 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Available capacity: 2000 out of 2000 [{}->http://localhost:37382][null]
+2014-04-24 11:52:19,239 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Creating new connection [{}->http://localhost:37382]
+2014-04-24 11:52:19,240 - org.apache.http.impl.conn.DefaultClientConnectionOperator - DEBUG - Connecting to localhost:37382
+2014-04-24 11:52:19,241 - org.apache.http.client.protocol.RequestAddCookies - DEBUG - CookieSpec selected: best-match
+2014-04-24 11:52:19,241 - org.apache.http.client.protocol.RequestAuthCache - DEBUG - Auth cache not set in the context
+2014-04-24 11:52:19,241 - org.apache.http.client.protocol.RequestTargetAuthentication - DEBUG - Target auth state: UNCHALLENGED
+2014-04-24 11:52:19,241 - org.apache.http.client.protocol.RequestProxyAuthentication - DEBUG - Proxy auth state: UNCHALLENGED
+2014-04-24 11:52:19,241 - org.apache.http.impl.client.DefaultHttpClient - DEBUG - Attempt 1 to execute request
+2014-04-24 11:52:19,242 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Sending request: POST /session/24d4b63013c67c425b9e56a9dcfb5c8a/url HTTP/1.1
+2014-04-24 11:52:19,242 - org.apache.http.wire - DEBUG - >> "POST /session/24d4b63013c67c425b9e56a9dcfb5c8a/url HTTP/1.1[\r][\n]"
+2014-04-24 11:52:19,242 - org.apache.http.wire - DEBUG - >> "Accept: application/json, image/png[\r][\n]"
+2014-04-24 11:52:19,242 - org.apache.http.wire - DEBUG - >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2014-04-24 11:52:19,243 - org.apache.http.wire - DEBUG - >> "Content-Length: 32[\r][\n]"
+2014-04-24 11:52:19,243 - org.apache.http.wire - DEBUG - >> "Host: localhost:37382[\r][\n]"
+2014-04-24 11:52:19,243 - org.apache.http.wire - DEBUG - >> "Connection: Keep-Alive[\r][\n]"
+2014-04-24 11:52:19,244 - org.apache.http.wire - DEBUG - >> "[\r][\n]"
+2014-04-24 11:52:19,244 - org.apache.http.headers - DEBUG - >> POST /session/24d4b63013c67c425b9e56a9dcfb5c8a/url HTTP/1.1
+2014-04-24 11:52:19,244 - org.apache.http.headers - DEBUG - >> Accept: application/json, image/png
+2014-04-24 11:52:19,244 - org.apache.http.headers - DEBUG - >> Content-Type: application/json; charset=utf-8
+2014-04-24 11:52:19,245 - org.apache.http.headers - DEBUG - >> Content-Length: 32
+2014-04-24 11:52:19,245 - org.apache.http.headers - DEBUG - >> Host: localhost:37382
+2014-04-24 11:52:19,245 - org.apache.http.headers - DEBUG - >> Connection: Keep-Alive
+2014-04-24 11:52:19,245 - org.apache.http.wire - DEBUG - >> "{"url":"http://www.jabong.com/"}"
+2014-04-24 11:52:34,113 - org.apache.http.wire - DEBUG - << "HTTP/1.1 200 OK[\r][\n]"
+2014-04-24 11:52:34,114 - org.apache.http.wire - DEBUG - << "Content-Length:72[\r][\n]"
+2014-04-24 11:52:34,114 - org.apache.http.wire - DEBUG - << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2014-04-24 11:52:34,114 - org.apache.http.wire - DEBUG - << "Connection:close[\r][\n]"
+2014-04-24 11:52:34,114 - org.apache.http.wire - DEBUG - << "[\r][\n]"
+2014-04-24 11:52:34,115 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Receiving response: HTTP/1.1 200 OK
+2014-04-24 11:52:34,115 - org.apache.http.headers - DEBUG - << HTTP/1.1 200 OK
+2014-04-24 11:52:34,115 - org.apache.http.headers - DEBUG - << Content-Length:72
+2014-04-24 11:52:34,115 - org.apache.http.headers - DEBUG - << Content-Type:application/json; charset=utf-8
+2014-04-24 11:52:34,115 - org.apache.http.headers - DEBUG - << Connection:close
+2014-04-24 11:52:34,116 - org.apache.http.wire - DEBUG - << "{"sessionId":"24d4b63013c67c425b9e56a9dcfb5c8a","status":0,"value":null}"
+2014-04-24 11:52:34,116 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Connection 0.0.0.0:51549<->127.0.0.1:37382 shut down
+2014-04-24 11:52:34,116 - org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - DEBUG - Released connection is not reusable.
+2014-04-24 11:52:34,116 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Releasing connection [{}->http://localhost:37382][null]
+2014-04-24 11:52:34,116 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Connection 0.0.0.0:51549<->127.0.0.1:37382 closed
+2014-04-24 11:52:34,117 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Notifying no-one, there are no waiting threads
+2014-04-24 11:52:34,118 - org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - DEBUG - Get connection: {}->http://localhost:37382, timeout = 120000
+2014-04-24 11:52:34,119 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - [{}->http://localhost:37382] total kept alive: 0, total issued: 0, total allocated: 0 out of 2000
+2014-04-24 11:52:34,119 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - No free connections [{}->http://localhost:37382][null]
+2014-04-24 11:52:34,119 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Available capacity: 2000 out of 2000 [{}->http://localhost:37382][null]
+2014-04-24 11:52:34,120 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Creating new connection [{}->http://localhost:37382]
+2014-04-24 11:52:34,120 - org.apache.http.impl.conn.DefaultClientConnectionOperator - DEBUG - Connecting to localhost:37382
+2014-04-24 11:52:34,121 - org.apache.http.client.protocol.RequestAddCookies - DEBUG - CookieSpec selected: best-match
+2014-04-24 11:52:34,121 - org.apache.http.client.protocol.RequestAuthCache - DEBUG - Auth cache not set in the context
+2014-04-24 11:52:34,122 - org.apache.http.client.protocol.RequestTargetAuthentication - DEBUG - Target auth state: UNCHALLENGED
+2014-04-24 11:52:34,122 - org.apache.http.client.protocol.RequestProxyAuthentication - DEBUG - Proxy auth state: UNCHALLENGED
+2014-04-24 11:52:34,122 - org.apache.http.impl.client.DefaultHttpClient - DEBUG - Attempt 1 to execute request
+2014-04-24 11:52:34,122 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Sending request: POST /session/24d4b63013c67c425b9e56a9dcfb5c8a/element HTTP/1.1
+2014-04-24 11:52:34,123 - org.apache.http.wire - DEBUG - >> "POST /session/24d4b63013c67c425b9e56a9dcfb5c8a/element HTTP/1.1[\r][\n]"
+2014-04-24 11:52:34,123 - org.apache.http.wire - DEBUG - >> "Accept: application/json, image/png[\r][\n]"
+2014-04-24 11:52:34,123 - org.apache.http.wire - DEBUG - >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2014-04-24 11:52:34,123 - org.apache.http.wire - DEBUG - >> "Content-Length: 46[\r][\n]"
+2014-04-24 11:52:34,123 - org.apache.http.wire - DEBUG - >> "Host: localhost:37382[\r][\n]"
+2014-04-24 11:52:34,124 - org.apache.http.wire - DEBUG - >> "Connection: Keep-Alive[\r][\n]"
+2014-04-24 11:52:34,124 - org.apache.http.wire - DEBUG - >> "[\r][\n]"
+2014-04-24 11:52:34,124 - org.apache.http.headers - DEBUG - >> POST /session/24d4b63013c67c425b9e56a9dcfb5c8a/element HTTP/1.1
+2014-04-24 11:52:34,124 - org.apache.http.headers - DEBUG - >> Accept: application/json, image/png
+2014-04-24 11:52:34,125 - org.apache.http.headers - DEBUG - >> Content-Type: application/json; charset=utf-8
+2014-04-24 11:52:34,125 - org.apache.http.headers - DEBUG - >> Content-Length: 46
+2014-04-24 11:52:34,125 - org.apache.http.headers - DEBUG - >> Host: localhost:37382
+2014-04-24 11:52:34,125 - org.apache.http.headers - DEBUG - >> Connection: Keep-Alive
+2014-04-24 11:52:34,125 - org.apache.http.wire - DEBUG - >> "{"using":"xpath","value":"html/body/div[5]/a"}"
+2014-04-24 11:52:34,174 - org.apache.http.wire - DEBUG - << "HTTP/1.1 200 OK[\r][\n]"
+2014-04-24 11:52:34,175 - org.apache.http.wire - DEBUG - << "Content-Length:103[\r][\n]"
+2014-04-24 11:52:34,175 - org.apache.http.wire - DEBUG - << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2014-04-24 11:52:34,175 - org.apache.http.wire - DEBUG - << "Connection:close[\r][\n]"
+2014-04-24 11:52:34,175 - org.apache.http.wire - DEBUG - << "[\r][\n]"
+2014-04-24 11:52:34,176 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Receiving response: HTTP/1.1 200 OK
+2014-04-24 11:52:34,176 - org.apache.http.headers - DEBUG - << HTTP/1.1 200 OK
+2014-04-24 11:52:34,176 - org.apache.http.headers - DEBUG - << Content-Length:103
+2014-04-24 11:52:34,176 - org.apache.http.headers - DEBUG - << Content-Type:application/json; charset=utf-8
+2014-04-24 11:52:34,177 - org.apache.http.headers - DEBUG - << Connection:close
+2014-04-24 11:52:34,177 - org.apache.http.wire - DEBUG - << "{"sessionId":"24d4b63013c67c425b9e56a9dcfb5c8a","status":0,"value":{"ELEMENT":"0.45726145477965474-1"}}"
+2014-04-24 11:52:34,177 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Connection 0.0.0.0:51721<->127.0.0.1:37382 shut down
+2014-04-24 11:52:34,178 - org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - DEBUG - Released connection is not reusable.
+2014-04-24 11:52:34,178 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Releasing connection [{}->http://localhost:37382][null]
+2014-04-24 11:52:34,178 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Connection 0.0.0.0:51721<->127.0.0.1:37382 closed
+2014-04-24 11:52:34,178 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Notifying no-one, there are no waiting threads
+2014-04-24 11:52:34,196 - org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - DEBUG - Get connection: {}->http://localhost:37382, timeout = 120000
+2014-04-24 11:52:34,196 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - [{}->http://localhost:37382] total kept alive: 0, total issued: 0, total allocated: 0 out of 2000
+2014-04-24 11:52:34,196 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - No free connections [{}->http://localhost:37382][null]
+2014-04-24 11:52:34,196 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Available capacity: 2000 out of 2000 [{}->http://localhost:37382][null]
+2014-04-24 11:52:34,197 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Creating new connection [{}->http://localhost:37382]
+2014-04-24 11:52:34,197 - org.apache.http.impl.conn.DefaultClientConnectionOperator - DEBUG - Connecting to localhost:37382
+2014-04-24 11:52:34,198 - org.apache.http.client.protocol.RequestAddCookies - DEBUG - CookieSpec selected: best-match
+2014-04-24 11:52:34,198 - org.apache.http.client.protocol.RequestAuthCache - DEBUG - Auth cache not set in the context
+2014-04-24 11:52:34,199 - org.apache.http.client.protocol.RequestTargetAuthentication - DEBUG - Target auth state: UNCHALLENGED
+2014-04-24 11:52:34,199 - org.apache.http.client.protocol.RequestProxyAuthentication - DEBUG - Proxy auth state: UNCHALLENGED
+2014-04-24 11:52:34,199 - org.apache.http.impl.client.DefaultHttpClient - DEBUG - Attempt 1 to execute request
+2014-04-24 11:52:34,199 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Sending request: POST /session/24d4b63013c67c425b9e56a9dcfb5c8a/element/0.45726145477965474-1/click HTTP/1.1
+2014-04-24 11:52:34,200 - org.apache.http.wire - DEBUG - >> "POST /session/24d4b63013c67c425b9e56a9dcfb5c8a/element/0.45726145477965474-1/click HTTP/1.1[\r][\n]"
+2014-04-24 11:52:34,200 - org.apache.http.wire - DEBUG - >> "Accept: application/json, image/png[\r][\n]"
+2014-04-24 11:52:34,200 - org.apache.http.wire - DEBUG - >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2014-04-24 11:52:34,200 - org.apache.http.wire - DEBUG - >> "Content-Length: 30[\r][\n]"
+2014-04-24 11:52:34,201 - org.apache.http.wire - DEBUG - >> "Host: localhost:37382[\r][\n]"
+2014-04-24 11:52:34,201 - org.apache.http.wire - DEBUG - >> "Connection: Keep-Alive[\r][\n]"
+2014-04-24 11:52:34,201 - org.apache.http.wire - DEBUG - >> "[\r][\n]"
+2014-04-24 11:52:34,201 - org.apache.http.headers - DEBUG - >> POST /session/24d4b63013c67c425b9e56a9dcfb5c8a/element/0.45726145477965474-1/click HTTP/1.1
+2014-04-24 11:52:34,202 - org.apache.http.headers - DEBUG - >> Accept: application/json, image/png
+2014-04-24 11:52:34,202 - org.apache.http.headers - DEBUG - >> Content-Type: application/json; charset=utf-8
+2014-04-24 11:52:34,202 - org.apache.http.headers - DEBUG - >> Content-Length: 30
+2014-04-24 11:52:34,202 - org.apache.http.headers - DEBUG - >> Host: localhost:37382
+2014-04-24 11:52:34,202 - org.apache.http.headers - DEBUG - >> Connection: Keep-Alive
+2014-04-24 11:52:34,203 - org.apache.http.wire - DEBUG - >> "{"id":"0.45726145477965474-1"}"
+2014-04-24 11:52:34,288 - org.apache.http.wire - DEBUG - << "HTTP/1.1 200 OK[\r][\n]"
+2014-04-24 11:52:34,288 - org.apache.http.wire - DEBUG - << "Content-Length:72[\r][\n]"
+2014-04-24 11:52:34,288 - org.apache.http.wire - DEBUG - << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2014-04-24 11:52:34,289 - org.apache.http.wire - DEBUG - << "Connection:close[\r][\n]"
+2014-04-24 11:52:34,289 - org.apache.http.wire - DEBUG - << "[\r][\n]"
+2014-04-24 11:52:34,289 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Receiving response: HTTP/1.1 200 OK
+2014-04-24 11:52:34,289 - org.apache.http.headers - DEBUG - << HTTP/1.1 200 OK
+2014-04-24 11:52:34,290 - org.apache.http.headers - DEBUG - << Content-Length:72
+2014-04-24 11:52:34,290 - org.apache.http.headers - DEBUG - << Content-Type:application/json; charset=utf-8
+2014-04-24 11:52:34,290 - org.apache.http.headers - DEBUG - << Connection:close
+2014-04-24 11:52:34,291 - org.apache.http.wire - DEBUG - << "{"sessionId":"24d4b63013c67c425b9e56a9dcfb5c8a","status":0,"value":null}"
+2014-04-24 11:52:34,291 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Connection 0.0.0.0:51722<->127.0.0.1:37382 shut down
+2014-04-24 11:52:34,291 - org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - DEBUG - Released connection is not reusable.
+2014-04-24 11:52:34,292 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Releasing connection [{}->http://localhost:37382][null]
+2014-04-24 11:52:34,292 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Connection 0.0.0.0:51722<->127.0.0.1:37382 closed
+2014-04-24 11:52:34,292 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Notifying no-one, there are no waiting threads
+2014-04-24 11:52:34,311 - org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - DEBUG - Get connection: {}->http://localhost:37382, timeout = 120000
+2014-04-24 11:52:34,311 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - [{}->http://localhost:37382] total kept alive: 0, total issued: 0, total allocated: 0 out of 2000
+2014-04-24 11:52:34,312 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - No free connections [{}->http://localhost:37382][null]
+2014-04-24 11:52:34,312 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Available capacity: 2000 out of 2000 [{}->http://localhost:37382][null]
+2014-04-24 11:52:34,312 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Creating new connection [{}->http://localhost:37382]
+2014-04-24 11:52:34,313 - org.apache.http.impl.conn.DefaultClientConnectionOperator - DEBUG - Connecting to localhost:37382
+2014-04-24 11:52:34,314 - org.apache.http.client.protocol.RequestAddCookies - DEBUG - CookieSpec selected: best-match
+2014-04-24 11:52:34,314 - org.apache.http.client.protocol.RequestAuthCache - DEBUG - Auth cache not set in the context
+2014-04-24 11:52:34,315 - org.apache.http.client.protocol.RequestTargetAuthentication - DEBUG - Target auth state: UNCHALLENGED
+2014-04-24 11:52:34,315 - org.apache.http.client.protocol.RequestProxyAuthentication - DEBUG - Proxy auth state: UNCHALLENGED
+2014-04-24 11:52:34,315 - org.apache.http.impl.client.DefaultHttpClient - DEBUG - Attempt 1 to execute request
+2014-04-24 11:52:34,315 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Sending request: GET /session/24d4b63013c67c425b9e56a9dcfb5c8a/title HTTP/1.1
+2014-04-24 11:52:34,316 - org.apache.http.wire - DEBUG - >> "GET /session/24d4b63013c67c425b9e56a9dcfb5c8a/title HTTP/1.1[\r][\n]"
+2014-04-24 11:52:34,316 - org.apache.http.wire - DEBUG - >> "Accept: application/json, image/png[\r][\n]"
+2014-04-24 11:52:34,316 - org.apache.http.wire - DEBUG - >> "Cache-Control: no-cache[\r][\n]"
+2014-04-24 11:52:34,316 - org.apache.http.wire - DEBUG - >> "Host: localhost:37382[\r][\n]"
+2014-04-24 11:52:34,316 - org.apache.http.wire - DEBUG - >> "Connection: Keep-Alive[\r][\n]"
+2014-04-24 11:52:34,317 - org.apache.http.wire - DEBUG - >> "[\r][\n]"
+2014-04-24 11:52:34,317 - org.apache.http.headers - DEBUG - >> GET /session/24d4b63013c67c425b9e56a9dcfb5c8a/title HTTP/1.1
+2014-04-24 11:52:34,317 - org.apache.http.headers - DEBUG - >> Accept: application/json, image/png
+2014-04-24 11:52:34,317 - org.apache.http.headers - DEBUG - >> Cache-Control: no-cache
+2014-04-24 11:52:34,317 - org.apache.http.headers - DEBUG - >> Host: localhost:37382
+2014-04-24 11:52:34,317 - org.apache.http.headers - DEBUG - >> Connection: Keep-Alive
+2014-04-24 11:52:34,321 - org.apache.http.wire - DEBUG - << "HTTP/1.1 200 OK[\r][\n]"
+2014-04-24 11:52:34,322 - org.apache.http.wire - DEBUG - << "Content-Length:144[\r][\n]"
+2014-04-24 11:52:34,322 - org.apache.http.wire - DEBUG - << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2014-04-24 11:52:34,322 - org.apache.http.wire - DEBUG - << "Connection:close[\r][\n]"
+2014-04-24 11:52:34,323 - org.apache.http.wire - DEBUG - << "[\r][\n]"
+2014-04-24 11:52:34,323 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Receiving response: HTTP/1.1 200 OK
+2014-04-24 11:52:34,323 - org.apache.http.headers - DEBUG - << HTTP/1.1 200 OK
+2014-04-24 11:52:34,323 - org.apache.http.headers - DEBUG - << Content-Length:144
+2014-04-24 11:52:34,323 - org.apache.http.headers - DEBUG - << Content-Type:application/json; charset=utf-8
+2014-04-24 11:52:34,324 - org.apache.http.headers - DEBUG - << Connection:close
+2014-04-24 11:52:34,324 - org.apache.http.wire - DEBUG - << "{"sessionId":"24d4b63013c67c425b9e56a9dcfb5c8a","status":0,"value":"Online Shopping India: Shop Shoes, Clothing, Bags, Watches Online in India"}"
+2014-04-24 11:52:34,324 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Connection 0.0.0.0:51723<->127.0.0.1:37382 shut down
+2014-04-24 11:52:34,325 - org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - DEBUG - Released connection is not reusable.
+2014-04-24 11:52:34,325 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Releasing connection [{}->http://localhost:37382][null]
+2014-04-24 11:52:34,325 - org.apache.http.impl.conn.DefaultClientConnection - DEBUG - Connection 0.0.0.0:51723<->127.0.0.1:37382 closed
+2014-04-24 11:52:34,325 - org.apache.http.impl.conn.tsccm.ConnPoolByRoute - DEBUG - Notifying no-one, there are no waiting threads
+2014-04-28 12:02:14,022 - BaseClass - INFO - Starting Log
+2014-04-28 12:25:58,709 - BaseClass - INFO - Starting Log---Launching Login test
+2014-04-28 12:38:12,653 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-04-28 19:21:39,214 - BaseClass - INFO - Starting Log---Launching Login test
+2014-04-28 19:25:18,173 - BaseClass - INFO - Starting Log---Launching Login test
+2014-04-28 19:29:55,274 - BaseClass - INFO - Starting Log---Launching Login test
+2014-04-29 12:40:51,819 - BaseClass - INFO - Starting Log---Launching Login test
+2014-04-29 12:44:18,286 - BaseClass - INFO - Starting Log---Launching Login test
+2014-04-29 12:45:47,481 - BaseClass - INFO - Starting Log---Launching Login test
+2014-04-29 12:48:14,239 - BaseClass - INFO - Starting Log---Launching Login test
+2014-04-29 12:52:42,043 - BaseClass - INFO - Starting Log---Launching url test
+2014-04-29 12:52:57,387 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-04-29 12:53:35,646 - BaseClass - INFO - Starting Log---Launching Login test
+2014-04-29 12:54:26,457 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-04-29 13:11:47,991 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-04-29 13:14:25,366 - BaseClass - INFO - Starting Log---Launching url test
+2014-04-29 13:14:41,783 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-04-29 13:15:21,627 - BaseClass - INFO - Starting Log---Launching Login test
+2014-04-29 13:16:11,868 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-04-29 15:00:03,396 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-04-29 15:01:21,315 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-04-29 15:02:38,456 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-04-29 15:04:06,071 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-04-29 15:15:40,170 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-04-29 15:21:36,904 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-04-29 15:25:12,420 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-04-29 15:26:42,737 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-04-29 15:28:48,045 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-04-29 15:29:44,470 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-04-29 16:49:06,143 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-04-29 16:51:31,673 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-04-29 16:57:29,276 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-04-29 16:58:48,082 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-04-29 18:24:49,734 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-04-29 18:26:01,627 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-04-29 18:26:58,544 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-04-29 18:29:09,988 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-04-29 18:30:27,431 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-04-29 18:31:39,065 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-04-29 18:35:07,479 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-04-29 18:41:47,422 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-04-29 18:43:13,229 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-07 19:47:23,405 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-07 19:49:38,659 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-07 19:56:06,037 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-08 11:19:44,725 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-08 11:31:39,535 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-08 12:04:30,379 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-08 12:12:30,663 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-08 12:14:46,082 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-08 12:15:46,720 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-08 12:50:56,756 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-08 13:11:56,689 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-08 13:36:24,442 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-08 13:37:26,653 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-08 14:11:03,995 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-08 14:12:53,833 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-08 17:23:07,657 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-08 17:24:52,147 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-08 17:25:32,990 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-08 17:55:55,762 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-08 18:03:49,606 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-08 18:21:09,038 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-08 18:24:01,139 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-08 18:25:42,804 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-08 18:40:33,208 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-08 18:51:39,090 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-08 18:54:53,186 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-08 19:04:12,128 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-09 11:31:33,438 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-09 11:32:21,325 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-09 11:33:35,479 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-09 11:55:44,561 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-09 11:56:16,127 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-09 11:56:55,959 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-09 11:57:45,687 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-09 11:58:04,066 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-09 11:58:41,023 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-09 11:58:54,907 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-09 12:00:45,481 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-09 12:03:21,789 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-09 12:04:43,160 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-09 12:06:45,337 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-09 12:10:45,341 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-09 12:14:22,770 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-09 12:18:34,982 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-09 12:19:40,029 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-09 12:21:18,012 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-09 12:22:41,845 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-09 12:24:13,526 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-09 12:28:48,759 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-09 12:30:47,205 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-09 12:33:34,327 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-09 12:35:22,899 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-09 12:37:31,455 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-09 12:39:07,689 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-09 12:44:40,966 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-09 12:47:23,292 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-09 12:48:50,547 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-09 12:49:54,375 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-09 12:52:09,911 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-09 12:53:03,849 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-09 12:59:33,831 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-09 13:01:06,139 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-09 13:08:19,410 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-09 14:22:08,933 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-09 14:25:28,712 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-09 14:26:53,113 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-09 18:07:32,199 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-09 18:10:20,233 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-09 18:13:56,816 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-09 18:17:58,170 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-09 18:20:20,089 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-09 18:25:35,554 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-09 18:27:01,252 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-09 18:33:32,834 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-09 19:25:58,434 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-09 19:37:18,493 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-09 19:38:28,150 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-09 19:39:49,137 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-09 19:58:52,901 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-09 19:59:38,936 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-09 20:02:54,063 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-09 20:04:05,726 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-09 20:12:11,125 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-09 20:12:33,146 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-09 20:16:38,790 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-12 11:46:31,719 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 11:49:49,211 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 11:50:06,159 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 11:50:59,953 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 11:54:36,362 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 11:56:11,932 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 12:05:12,604 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 12:17:50,973 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 12:20:39,168 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 12:22:52,893 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 12:32:03,381 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 12:38:55,385 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 12:40:26,259 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 12:41:50,052 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 12:43:21,297 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 12:50:48,528 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 12:59:12,937 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 13:01:21,557 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 13:02:22,340 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 13:03:44,317 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 13:06:43,852 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 13:13:00,767 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 13:16:51,829 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 13:23:13,865 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 13:55:33,626 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 14:01:23,696 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 14:05:10,933 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 14:14:48,632 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 14:16:49,450 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 15:49:13,953 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 15:51:29,013 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 15:53:15,000 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 15:58:26,684 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 16:02:01,559 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 16:04:34,849 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 16:16:35,653 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 16:41:30,512 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 16:48:01,148 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 16:53:09,861 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 16:59:05,229 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 17:01:40,879 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 17:08:43,019 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 17:40:55,652 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 17:45:00,334 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 17:48:23,128 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 17:50:09,429 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 17:56:19,742 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 18:07:46,216 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 18:12:35,767 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 18:15:18,070 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 18:29:53,396 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 18:43:02,195 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 18:44:05,386 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 19:02:13,185 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 19:08:21,132 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 19:25:44,543 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 19:27:26,545 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 19:30:15,686 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 19:35:57,979 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-12 19:37:40,881 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 10:57:39,464 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 11:00:28,408 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 11:03:19,126 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 11:05:59,072 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 11:07:39,508 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 11:12:25,054 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 11:17:51,384 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 11:18:40,229 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 11:27:52,410 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 11:28:46,077 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 11:30:24,374 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 11:32:35,140 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 11:33:52,499 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 11:35:22,571 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 11:36:57,296 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 11:45:29,274 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 11:49:37,011 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 11:50:46,734 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 11:52:11,977 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 11:55:22,476 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 12:05:39,625 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 12:15:32,625 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 12:18:00,718 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 12:18:55,680 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 12:45:21,454 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-13 12:45:48,314 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-13 12:46:27,107 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-13 12:46:46,830 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-13 12:47:54,230 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-13 12:49:02,608 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-13 12:49:43,045 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-13 12:49:43,049 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-13 12:49:43,051 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 12:51:18,055 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-13 12:51:42,644 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-13 12:52:19,942 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-13 12:52:40,623 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-13 12:52:59,290 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-13 12:54:20,847 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-13 12:54:42,758 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-13 12:55:06,173 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 12:58:38,665 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-13 13:06:48,259 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 14:09:08,553 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 14:39:06,923 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 14:40:11,508 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 14:51:31,704 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 14:55:44,714 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-13 14:56:20,682 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-13 15:01:13,273 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-13 17:16:52,305 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-13 17:23:12,433 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-13 17:24:56,452 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-13 17:25:55,053 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-15 14:58:00,106 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-15 14:58:24,617 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-15 14:59:11,416 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-15 14:59:44,088 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-15 15:00:03,114 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-15 15:00:41,079 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-15 15:00:57,912 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-15 15:01:19,361 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-15 15:01:37,661 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-15 15:04:05,348 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-15 15:06:02,829 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-15 15:07:53,913 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-15 15:12:02,819 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-15 15:56:58,119 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-15 16:01:40,189 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-15 16:02:33,935 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-15 16:02:53,331 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-15 16:04:07,087 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-15 16:05:48,890 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-15 16:06:47,440 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-15 16:07:39,375 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-15 16:08:37,479 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-15 16:11:52,905 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-15 16:17:57,608 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-15 16:20:58,751 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-15 16:23:22,926 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-15 16:25:54,646 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-15 16:27:29,976 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-15 16:30:32,065 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-15 16:31:45,554 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-15 16:33:10,982 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-15 16:35:24,293 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-15 16:40:52,773 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-15 16:43:33,664 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-15 16:45:50,010 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-15 16:51:49,975 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-15 16:52:34,862 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-15 16:54:31,534 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-15 16:56:27,706 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-15 17:00:21,046 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-15 17:25:27,687 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-15 17:26:39,676 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-15 17:27:04,815 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-15 17:54:05,256 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-15 17:55:37,453 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-15 18:00:54,992 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-15 18:03:31,122 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-15 18:05:36,340 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-15 18:06:45,734 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-15 18:07:40,336 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-15 18:16:17,995 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-15 18:18:50,485 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-15 18:20:21,736 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-15 18:33:44,688 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-15 18:43:03,352 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-15 18:59:06,646 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-15 19:00:49,707 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-15 19:02:45,601 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-15 19:05:16,916 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-15 19:12:11,782 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-15 19:18:00,716 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-15 19:27:14,840 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-15 19:28:28,262 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-15 19:40:42,328 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-15 19:42:34,032 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-15 19:44:16,696 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-15 19:46:52,337 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-15 19:49:03,289 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 10:44:15,717 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-16 10:44:43,359 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-16 10:45:04,752 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-16 10:45:17,848 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-16 10:45:23,264 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 10:46:30,842 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-16 10:46:48,151 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-16 10:47:01,801 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-16 10:50:37,835 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-16 10:52:31,720 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 10:58:00,094 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 11:06:53,038 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-16 11:08:03,272 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-16 11:22:57,141 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-16 11:34:29,307 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-16 11:35:28,729 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-16 11:38:09,616 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-16 11:39:45,053 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-16 11:40:54,562 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-16 11:41:27,606 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-16 11:45:06,976 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-16 12:06:07,585 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-16 12:07:25,072 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-16 12:15:57,711 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-16 12:23:55,510 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 12:25:49,584 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-16 12:26:36,034 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 12:34:48,404 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 12:37:01,337 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 12:39:06,193 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 12:39:15,851 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 12:40:15,324 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 12:41:59,290 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 12:54:11,522 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 12:57:20,605 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 12:58:54,097 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 13:00:41,073 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 13:02:25,320 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 13:07:33,259 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 13:08:11,021 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 13:14:29,278 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 13:14:53,632 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 13:17:55,862 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 13:19:57,861 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 13:26:35,287 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 13:28:23,091 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 14:24:16,831 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-16 14:24:59,626 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-16 14:25:19,676 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-16 14:25:39,707 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-16 14:25:59,740 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 14:26:19,769 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-16 14:26:25,909 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-16 14:26:32,040 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-16 14:30:07,648 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-16 14:34:22,413 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-16 14:35:15,361 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-16 14:36:09,764 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-16 14:36:49,490 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-16 14:37:55,273 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-16 14:46:19,790 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-16 14:46:36,375 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-16 14:47:39,545 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-16 14:48:22,417 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-16 14:49:19,611 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-16 15:01:01,820 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-16 15:01:07,546 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-16 15:01:07,562 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-16 15:01:07,578 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-16 15:01:07,588 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 15:01:07,593 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-16 15:01:07,597 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-16 15:01:07,601 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-16 15:01:07,604 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-16 15:01:50,524 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-16 15:02:06,973 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-16 15:02:06,992 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-16 15:02:07,004 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-16 15:02:07,017 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 15:02:07,022 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-16 15:02:07,025 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-16 15:02:07,029 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-16 15:02:07,033 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-16 15:20:25,817 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-16 15:21:11,633 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 15:26:28,300 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-16 15:30:36,522 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-16 15:30:44,330 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-16 15:31:05,013 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-16 15:31:15,526 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-16 15:31:18,903 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-16 15:34:07,198 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-16 15:34:27,232 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-16 15:34:47,259 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-16 15:38:25,717 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-19 11:07:54,988 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-19 11:08:04,891 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-19 11:08:28,922 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-19 11:08:39,964 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-19 11:08:42,654 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-19 11:17:48,630 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-19 11:37:48,416 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-19 11:38:27,797 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-19 11:39:14,926 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-19 11:39:37,864 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-19 11:46:12,411 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-19 12:28:07,895 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-19 12:29:59,504 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-19 12:34:23,922 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-19 12:49:13,110 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-19 12:49:18,563 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-19 12:49:38,705 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-19 12:49:49,202 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-19 12:49:52,343 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-19 12:52:45,616 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-19 12:52:50,334 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-19 12:52:54,820 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-19 12:56:25,999 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-19 13:13:29,663 - BaseClass - INFO - Starting Log---Launching Close url test
+2014-05-19 13:13:46,974 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-19 13:13:51,028 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-19 13:15:06,351 - BaseClass - INFO - Starting Log---Launching url test
+2014-05-19 13:15:16,078 - BaseClass - INFO - Starting Log---Launching SignUp test
+2014-05-19 13:15:35,752 - BaseClass - INFO - Starting Log---Launching Login test
+2014-05-19 13:15:44,868 - BaseClass - INFO - Starting Log---Mouse Hover New in test
+2014-05-19 13:15:48,170 - BaseClass - INFO - Starting Log---Mouse Hover NewInMENSectionTest test
+2014-05-19 13:18:05,559 - BaseClass - INFO - Starting Log---Launching ShoesLinkTest test
+2014-05-19 13:18:10,450 - BaseClass - INFO - Starting Log---Launching ClothLinkTest test
+2014-05-19 13:18:15,290 - BaseClass - INFO - Starting Log---Launching ShoesNewArrival test
+2014-05-19 13:21:49,209 - BaseClass - INFO - Starting Log---Launching Close url test
